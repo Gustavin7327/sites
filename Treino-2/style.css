@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+p {
+  font-size: 11px;
+  color:pink;
+  background-color: blueviolet;
+}
+  body {
+    background-color: green;
+  }
+h1 {
+  background-color: blue;
+  color: yellow;
+}
+
+
+.abajur{
+  width: 100px;
+  height: 100px;
+  background-color: #5d5d22;
+  display: block;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.bt-abajur{
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  cursor: pointer;
+}
+
+.bt-abajur:hover{
+  background-color: yellow;
+}
+
+.bt-abajur:active{
+  border: 2px solid black;
+}
+
+  
